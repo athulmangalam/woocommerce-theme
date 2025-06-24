@@ -24,3 +24,13 @@ Two custom product meta fields can be configured on the product edit screen:
 - **Recommended Product IDs** (`_ttf_recommended`): comma separated IDs of products suggested on the cart page if not already in the cart.
 
 These fields are saved with the product via `functions.php` and can be used in templates.
+
+## Packaging the Theme
+
+Binary files are not tracked in this repository. To create an installable archive, run:
+
+```bash
+zip -r twentytwentyfive-child.zip wp-content/themes/twentytwentyfive-child
+```
+
+Upload the resulting `twentytwentyfive-child.zip` through **Appearance → Themes → Add New → Upload Theme** in your WordPress admin.
